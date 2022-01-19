@@ -1,0 +1,29 @@
+.current-weather {
+  color: whitesmoke;
+  // border-bottom: 2px solid whitesmoke;
+  width: 80%;
+  margin: 30px auto;
+  animation: fadeIn linear 1s;
+
+  &-city {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+
+  &-temp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  &-description {
+    font-size: 1.2em;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+

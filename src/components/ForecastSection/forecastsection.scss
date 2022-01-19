@@ -1,0 +1,49 @@
+.forecast-section {
+  margin: 100px auto auto;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  width: 80%;
+  // border-top: solid 10px whitesmoke;
+}
+
+.forecast-daily {
+  animation: fadeIn linear 1s;
+}
+
+.forecast-date {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.fa-temperature-low {
+  color: whitesmoke;
+}
+
+.fa-temperature-high {
+  color: whitesmoke;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.forecast-temp {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 820px) {
+  .forecast-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forecast-daily {
+    margin-top: 30px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

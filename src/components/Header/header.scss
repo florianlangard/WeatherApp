@@ -1,0 +1,20 @@
+@use 'src/styles/vars';
+
+.main-title {
+  font-family: vars.$title-font;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header {
+  width: 70%;
+  margin: 70px auto auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+// .theme-toggle {
+  
+// }

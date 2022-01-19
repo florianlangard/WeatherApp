@@ -1,0 +1,34 @@
+@use 'src/styles/vars';
+
+.searchbar {
+  background-color: whitesmoke;
+  width: 350px;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.input {
+  border: none;
+  margin-top: auto;
+  height: 3rem;
+  width: 70%;
+  border-radius: 50px;
+  text-align: center;
+  background-color: inherit;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.fas {
+  color: grey;
+  // text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+  .searchbar {
+    width: 250px;
+  }
+}
